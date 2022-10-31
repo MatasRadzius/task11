@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+h1 {
+  text-align: start;
+  margin: 70px 0 50px 0;
+}
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 200px;
+}
+.bar {
+  background-color: rgb(0, 0, 0);
+  height: 2px;
+  width: 800px;
+}
+
+.button {
+  background-color: #3abbee;
+  border: none;
+  color: white;
+  padding: 4px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(228, 108, 108);
+  cursor: pointer;
+}
+.container {
+  margin: 10%;
+}
